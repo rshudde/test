@@ -9,6 +9,7 @@ rotate <- function(x) t(apply(x, 2, rev)) # necessary for proper imaging
 
 N = 72
 G = 15
+
   
 ### MNIST data
 MNIST = read.csv("//Users//rachaelshudde//Desktop//Data//MNIST//mnist_test.csv", header = F)
@@ -27,9 +28,9 @@ data = test[sample(1:nrow(test), N, replace = FALSE), -1]
 # data = M2
 # 
 
-
+for (i in 1:20) print (i)
 # set up some variables
-n_columns = 28
+n_columns = 23
 n_rows = 28
 size = 3 # size of small box is 3x3
 buffer_sides = 1
