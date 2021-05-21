@@ -9,6 +9,7 @@ rotate <- function(x) t(apply(x, 2, rev)) # necessary for proper imaging
 
 N = 5
 G = 15
+a = 2
   
 ### MNIST data
 MNIST = read.csv("//Users//rachaelshudde//Desktop//Data//MNIST//mnist_test.csv", header = F)
