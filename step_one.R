@@ -7,9 +7,9 @@ source("/Users/rachaelshudde/Desktop/Image/slidingAlgorithm.R")
 library(mclust)
 rotate <- function(x) t(apply(x, 2, rev)) # necessary for proper imaging
 
-N = 5
-G = 1
-a = 2
+N = 72
+G = 15
+
   
 ### MNIST data
 MNIST = read.csv("//Users//rachaelshudde//Desktop//Data//MNIST//mnist_test.csv", header = F)
